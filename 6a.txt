@@ -1,0 +1,1 @@
+SELECT user_id, user.name, as category FROM user INNER JOIN skills ON skill_id = jumlah_skill.id;
