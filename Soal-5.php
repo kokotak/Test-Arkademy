@@ -13,5 +13,5 @@ function kata($str, $replace, $with)
             $newstring.=substr($str,$i,1);
         }
     }
-    return $newstr;
+    return $newstring;
 }
